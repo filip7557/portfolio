@@ -61,7 +61,7 @@ a:hover {
 }
 
 .logo:hover {
-    cursor: default;
+    cursor: pointer;
 }
 
 /* HAMBURGER MENU */
@@ -219,6 +219,8 @@ section {
 }
 
 .about-containers {
+    display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: -2rem;
@@ -291,6 +293,7 @@ section {
 
 .experience-details-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
 }
@@ -313,6 +316,43 @@ article {
 
 article .icon {
     cursor: default;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+    position: relative;
+}
+
+#projects p, #projects h1 {
+    text-align: right;
+    align-self: right;
+}
+
+#projects h1 {
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
 }
 
 /* ICONS */
