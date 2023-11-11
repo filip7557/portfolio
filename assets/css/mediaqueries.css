@@ -103,4 +103,8 @@
     footer {
         height: 20vh;
     }
+    .project-btn {
+        background-color: black;
+        color: white;
+    }
   }
