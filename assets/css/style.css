@@ -25,6 +25,13 @@ a, .btn {
     transition: all 300ms ease;
 }
 
+/* ICONS */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
 /* DESKTOP NAV */
 
 nav, .nav-links {
@@ -322,6 +329,7 @@ article .icon {
 
 #projects {
     position: relative;
+    height: fit-content;
 }
 
 #projects p, #projects h1 {
@@ -355,11 +363,54 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
-/* ICONS */
+/* CONTACT SECTION */
 
-.icon {
-    cursor: pointer;
-    height: 2rem;
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+#contact p:first-child, #contact h1 {
+    text-align: center;
+    align-self: center;
+}
+
+#contact h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background-color: rgb(250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
 }
 
 /* BUTTONS */
