@@ -107,4 +107,7 @@
         background-color: black;
         color: white;
     }
+    #projects .details-container {
+      min-width: 18rem;
+    }
   }
