@@ -223,6 +223,11 @@ section {
 
 #about h1 {
     font-size: 3rem;
+    text-align: center;
+}
+
+#about p:first-child {
+    text-align: center
 }
 
 .about-containers {
@@ -333,8 +338,8 @@ article .icon {
 }
 
 #projects p, #projects h1 {
-    text-align: right;
-    align-self: right;
+    text-align: center;
+    align-self: center;
 }
 
 #projects h1 {
