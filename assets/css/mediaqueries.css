@@ -101,13 +101,14 @@
       text-align: justify;
     }
     footer {
-        height: 20vh;
+        height: fit-content;
+        padding-bottom: 0;
     }
     .project-btn {
         background-color: black;
         color: white;
     }
     #projects .details-container {
-      min-width: 18rem;
+      min-width: 15rem;
     }
   }
