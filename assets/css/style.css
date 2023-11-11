@@ -413,6 +413,22 @@ article .icon {
     height: 2.5rem;
 }
 
+/* FOOTER SECTION */
+
+footer {
+    height: 26vh;
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(129, 129, 129);
+}
+
+footer a {
+    color: white;
+}
+
 /* BUTTONS */
 
 .btn-container {
